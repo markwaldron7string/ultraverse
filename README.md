@@ -1,6 +1,7 @@
 # Ultraverse NFT World
 
-[![CI](https://github.com/markwaldron7string/mark-internship/actions/workflows/ci.yml/badge.svg?branch=mark-merge)](https://github.com/markwaldron7string/mark-internship/actions/workflows/ci.yml)
+[![CI](https://github.com/markwaldron7string/ultraverse/actions/workflows/ci.yml/badge.svg?branch=mark-merge)](https://github.com/markwaldron7string/ultraverse/actions/workflows/ci.yml)
+[![CD](https://github.com/markwaldron7string/ultraverse/actions/workflows/cd.yml/badge.svg?branch=mark-merge)](https://github.com/markwaldron7string/ultraverse/actions/workflows/cd.yml)
 
 Ultraverse NFT World is a React marketplace UI for browsing NFT collections, featured items, authors, and item details. It includes a polished landing page, responsive navigation, carousel sections, and placeholder wallet-connection behavior ready for a future integration.
 
@@ -49,6 +50,6 @@ Create a production build:
 pnpm build
 ```
 
-## Continuous Integration
+## CI/CD Validation
 
-GitHub Actions runs the CI workflow on pushes to `mark-merge`, `main`, and `master`, plus all pull requests. The workflow installs dependencies with `pnpm install --frozen-lockfile`, runs the Jest suite, and creates a production build.
+The `mark-merge` branch has passing CI/CD validation. The CI workflow installs dependencies with `pnpm install --frozen-lockfile`, runs the Jest suite, and creates a production build. The CD workflow builds the deployable artifact, serves the generated `build/` directory, smoke-tests the HTML and static assets over HTTP, and uploads the build artifact.
