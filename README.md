@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/markwaldron7string/ultraverse/actions/workflows/ci.yml/badge.svg?branch=mark-merge)](https://github.com/markwaldron7string/ultraverse/actions/workflows/ci.yml)
 [![CD](https://github.com/markwaldron7string/ultraverse/actions/workflows/cd.yml/badge.svg?branch=mark-merge)](https://github.com/markwaldron7string/ultraverse/actions/workflows/cd.yml)
+![E2E](https://github.com/markwaldron7string/ultraverse/actions/workflows/cypress.yml/badge.svg?branch=mark-merge)
 
 Ultraverse NFT World is a React marketplace UI for browsing NFT collections, featured items, authors, and item details. It includes a polished landing page, responsive navigation, carousel sections, and placeholder wallet-connection behavior ready for a future integration.
 
