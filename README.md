@@ -1,11 +1,10 @@
-# Ultraverse NFT World
-
 [![CI](https://github.com/markwaldron7string/ultraverse/actions/workflows/ci.yml/badge.svg?branch=mark-merge)](https://github.com/markwaldron7string/ultraverse/actions/workflows/ci.yml)
 [![CD](https://github.com/markwaldron7string/ultraverse/actions/workflows/cd.yml/badge.svg?branch=mark-merge)](https://github.com/markwaldron7string/ultraverse/actions/workflows/cd.yml)
 ![E2E](https://github.com/markwaldron7string/ultraverse/actions/workflows/cypress.yml/badge.svg?branch=mark-merge)
 [![React](https://img.shields.io/badge/React-17-61dafb?logo=react&logoColor=black)](https://react.dev)
 [![Jest](https://img.shields.io/badge/Tested-Jest-C21325?logo=jest&logoColor=white)](https://jestjs.io)
 [![Vercel](https://img.shields.io/badge/Deployed-Vercel-000000?logo=vercel&logoColor=white)](YOUR_LIVE_URL)
+# Ultraverse NFT World
 
 Ultraverse NFT World is a React marketplace UI for browsing NFT collections, featured items, authors, and item details. It includes a polished landing page, responsive navigation, carousel sections, and placeholder wallet-connection behavior ready for a future integration.
 
